@@ -1,0 +1,371 @@
+body {
+
+font-family: bold italic;
+
+background: #A3CC7A;
+
+padding: 0;
+
+margin:0;
+
+}
+
+.container {
+
+width: 100%;
+
+height: auto;
+
+background: white;
+
+margin:auto;
+
+margin-top: 15px;
+
+padding-bottom: 5px;
+
+}
+
+.logo {
+
+font-size: 350px;
+
+padding: 30px 0 30px 10px;
+
+}
+
+nav ul {
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+overflow: hidden;
+
+background-color: #8DBC5D;
+
+border: 1px solid gainsboro;
+
+}
+
+nav li {
+
+float: left;
+
+}
+
+nav li a {
+
+display: inline-block;
+
+color:#ffffff;
+
+text-align: center;
+
+padding: 14px 15px;
+
+text-decoration: none;
+
+}
+
+nav li a:hover {
+
+opacity:0.9;
+
+background-color: #3385ff;
+
+}
+
+article {
+
+width: 98.8%;
+
+height: auto;
+
+border-radius: 3px;
+
+margin: 5px 5px 5px 5px;
+
+
+
+clear: both;
+
+}
+
+article p {
+
+padding: 5px 6px 5px 5px;
+
+line-height: 1.5;
+
+}
+
+article
+
+.konten {
+
+width: 23.5%;
+
+height: auto;
+
+margin: 5px 5px 5px 5px;
+
+border-radius: 3px;
+
+border: 1px solid gainsboro;
+
+float: left;
+
+}
+
+article .isi {
+
+width: 98.5%;
+
+height: auto;
+
+margin: 5px 5px 5px 5px;
+
+border-radius: 3px;
+
+border: 1px solid gainsboro;
+
+float: left;
+
+}
+
+article .isi .judul {
+
+font-size: 300px;
+
+margin-bottom: 10px;
+
+margin-left: 10px;
+
+margin-top: 10px;
+
+}
+
+article .isi p {
+
+margin-top: 0;
+
+}
+
+article .isi img {
+
+float: left;
+
+margin: 5px 5px 5px 5px;
+
+}
+
+article .konten img {
+
+width: 95.8%;
+
+height: 150px;
+
+margin: 5px 5px 5px 5px;
+
+}
+
+article .konten:hover {
+
+opacity:0.9;
+
+}
+
+article .konten .judul a {
+
+margin-left: 5px;
+
+text-decoration: none;
+
+font-size: 250px;
+
+color:#020101;
+
+}
+
+article .konten a:hover {
+
+opacity:0.9;
+
+}
+
+footer {
+
+clear: both;
+
+width: 98.8%;
+
+height: auto;
+
+text-align: center;
+
+margin: 5px 5px 5px 5px;
+
+border-radius: 3px;
+
+border-bottom: 1px solid gainsboro;
+
+padding-top: 15px;
+
+padding-bottom: 15px;
+
+}
+.sidebar {
+	float:right;
+	width:275px;
+}
+ 
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background:#A3CC7A;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+ 
+.sidebar .widget:hover {
+	border-bottom: 2px solid #3498db;
+}
+header{
+	text-align: center;
+	color: #232323;
+}
+ 
+header .judul{
+	font-size: 17pt;
+}
+ 
+header .deskripsi{
+	font-size: 11pt;
+}
+ 
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#0b0c0c;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+ 
+.sidebar .widget p {
+	font-size: 14px;
+}
+ 
+.sidebar .widget p:last-child {
+	margin:0;
+}
+ 
+nav.menu ul {
+		width: 100%;
+	}
+ 
+	nav.menu ul {
+		float:inherit;
+	}
+ 
+	
+	.conteudo {
+        width:600px;
+        padding:25px;
+        margin:25px auto;
+        background: rgb(56, 148, 3);
+        border:4px solid #dedede;
+        -webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+        -moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+        box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+    }
+    
+ 
+	nav.menu ul a {
+		padding:15px;
+		font-size: 16px;
+		border-top:1px solid #1abf9f;
+		border-bottom:1px solid #16a085;
+	}
+    .conteudo img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+ 
+.conteudo h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: rgb(14, 13, 13);
+	font-family: Georgia;
+}
+@media screen and (max-width: 960px) {
+ 
+	.header {
+		position:inherit;
+	}
+ 
+	.wrap {
+		width: 90%;
+		margin:25px auto;
+	}
+	.sidebar {
+		width:100%;
+		margin:25px 0 0;
+		float:right;
+	}
+ 
+	.sidebar .widget {
+		padding:5%;
+	}
+ 
+	
+	.blog {
+		width:90%;
+	}
+ 
+	.conteudo {
+		float:inherit;
+		margin:0 auto 25px;
+		width:101%;
+		border:1px solid #dedede;
+		padding:5%;  
+		background: #fff;
+	}
+ 
+	.conteudo img {
+		max-width: 110%;
+		margin:0 0 25px -5%;
+		min-width: 110%;
+	}
+ 
+	.conteudo .continue-lendo:hover {
+		margin-left:0;
+	}
+ 
+ 
+}
+@media screen and (max-width: 460px) {
+ 
+	nav.menu ul a {
+		padding:15px;
+		font-size: 14px;
+	}
+ 
+	.sidebar {
+		display:none
+	}
+	
+ 
+	.conteudo {
+		margin:25px auto;
+	}
+ 
+	.conteudo img {
+		margin:-5% 0 25px -5%;
+	}			
+}

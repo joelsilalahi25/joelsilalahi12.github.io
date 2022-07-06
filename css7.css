@@ -1,0 +1,126 @@
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
+@media screen and (max-width: 480px) { #header{ height: auto; } #sidebar{ display: none; } }
+.container {
+   width: 100%;
+   min-height: 200px;
+}
+.jdl{
+    text-align: center;
+    
+}
+.brt{
+    font-size: 15px;
+    float: right;
+    
+}
+.ftr{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 250px;
+}
+.ftr p{
+    color:black;
+    text-align: center;
+    padding: 5px 0;
+    float:right;
+    }
+
+.menu{
+    border: solid 2px;
+    color: silver;
+    text-transform: uppercase;
+    background: #d8e4e1;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+    overflow: hidden;
+    
+
+}
+nav.menu ul li{
+    float:right;
+    margin-right:10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+.menu li a{
+   
+    color: rgb(14, 13, 13);
+    
+}
+nav.menu ul li a{
+    text-decoration: none;
+    background: rgb(226, 216, 216);
+}
+nav.menu ul li a:hover{
+    text-decoration: underline;
+    color:blue;
+
+}
+body{
+    background-color: silver;
+}
+.sidebar {
+	float:left;
+	width:275px;
+    margin-top: 100px;
+    margin-right:80px;
+    
+}
+.sidebar p{
+    color: beige;
+}
+ 
+.sidebar .widget {
+	padding:25px;
+	margin:0 0 25px;
+	background-image: url(img/bg2jpg.jpg);
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+ 
+.sidebar .widget:hover {
+	border-bottom: 2px solid #3498db;
+}
+ 
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#3498db;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+ 
+.sidebar .widget p {
+	font-size: 14px;
+}
+.widget p a{
+    text-decoration: none;
+    color: #fff;
+}
+.widget p a:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+ 
+.sidebar .widget p:last-child {
+	margin:0;
+}
+.brt p{
+    margin-left: 350px;
+}
+ 

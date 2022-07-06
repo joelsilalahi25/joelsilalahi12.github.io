@@ -1,0 +1,27 @@
+.hdr{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 20px;
+    text-transform: uppercase;
+}
+.isi{
+    text-align: justify;
+    font-size: 20px;
+}
+.gbr img{
+    float: left;
+    width: 450px;
+    height: 390px;
+    scrollbar-shadow-color: aqua;
+    margin-right: 25px;
+}
+body{
+    background-color: aqua;
+    animation: alternate;
+}
+.a p{
+	text-decoration: none;
+    background-color: rgb(248, 238, 238);
+    color: white;
+
+}

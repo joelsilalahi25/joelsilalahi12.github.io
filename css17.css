@@ -1,0 +1,45 @@
+* {
+	margin:0; padding: 0;
+}
+
+body {
+    background-color:white;
+    
+    font-family: verdana;
+    font-size: 20px;
+}
+
+ .content, .vidio, #footer p {
+    padding: 10px;
+}
+
+h1{
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.content h1 {
+margin-bottom: 10px;
+
+}
+.gbr{
+    float:initial;
+}
+.gbr p h1{
+    margin-left: 200px;
+}
+
+
+#footer {
+margin-top: 10.5%;
+padding: 20px;
+background: silver;
+}
+
+#footer p {
+
+color:black;
+text-align: center;
+padding: 5px 0;
+}

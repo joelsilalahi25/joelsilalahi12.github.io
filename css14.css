@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  background-color:gray;
+  color: #34495e;
+}
+body {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    /* Isi Style Body */
+  }
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 1rem;
+  }
+  header {
+    margin-bottom: 15px;
+  }
+  nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:hover, nav a.active {
+    background-color: #2980b9;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  article, aside {
+    padding: 0 10px;
+  }
+  article {
+    width: 75%;
+  }
+  article h2, article p {
+    margin-bottom: 10px;
+  }
+  aside {
+    width: 25%;
+  }
+  .content {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
